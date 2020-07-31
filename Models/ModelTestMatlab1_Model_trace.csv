@@ -1,0 +1,8 @@
+Time(Hours),EntityID,ObjectName,ProcessID,StepName,Action
+0.00108730158730159,DefaultEntity.11,Model,2.Input_Server1_Entered,[MatlabStep] MatlabStep1,MATLAB call failed. Err=System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {368C18D2-53D8-433A-AD3B-FCF8F16CBE3F} failed due to the following error: 80080005 Server execution failed (Exception from HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+0.00108730158730159,DefaultEntity.11,Model,2.Input_Server1_Entered,[MatlabStep] MatlabStep1,"   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)"
+0.00108730158730159,DefaultEntity.11,Model,2.Input_Server1_Entered,[MatlabStep] MatlabStep1,"   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)"
+0.00108730158730159,DefaultEntity.11,Model,2.Input_Server1_Entered,[MatlabStep] MatlabStep1,"   at System.Activator.CreateInstance(Type type, Boolean nonPublic)"
+0.00108730158730159,DefaultEntity.11,Model,2.Input_Server1_Entered,[MatlabStep] MatlabStep1,   at System.Activator.CreateInstance(Type type)
+0.00108730158730159,DefaultEntity.11,Model,2.Input_Server1_Entered,[MatlabStep] MatlabStep1,"   at MatlabStep.MatlabHelpers.CallMatlabFunction(String functionName, String folderAddress, String& explanation) in E:\(svn azure)\SimioCloud\API\Examples2020\MatlabSteps\Source\MatlabHelpers.cs:line 25"
+
